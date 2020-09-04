@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    font-family: "Trattatell", cursive;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: #333;
+    color: white;
+}
+nav:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.logo, .menu{
+    display: inline-block;
+}
+.logo{
+    margin: 20px;
+}
+.menu{
+    float: right;
+    margin: 20px;
+}
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    
+
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+
+}
+.menu ul li a:hover{
+    background-color: brown;
+    color: cornsilk;
+    transition: all 0.5s ease;
+}
+
+
+header{
+    background-color: #1abc9c;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no no-repeat;
+}
+header p{
+    margin: 0;
+}
+ .hero-container{
+     text-align: center;
+     padding-top: 100px;
+
+ }
+ .btn-work{
+     background-color: crimson;
+     display: inline-block;
+     padding: 10px 20px;
+    color: white;
+     margin: 15px 10px;
+     font-weight: bold;
+     border-radius: 10px;
+     text-decoration: none;
+ }
+.btn-work:hover{
+    background-color: palevioletred;
+    transition: all 0.5s ease;
+}
+ .btn-contact{
+     background-color: crimson;
+     display: inline-block;
+     padding: 10px 20px;
+    color: white;
+     margin: 15px 10px;
+     font-weight: bold;
+     border-radius: 10px;
+     text-decoration: none;
+
+
+ }
+.btn-contact:hover{
+    background-color: palevioletred;
+    transition: all 0.5s ease;
+}
+
+.about-me{
+    width: 100%;
+    text-align ;
+    
+
+
+}
+.about-me h1{
+    color: darkorange;
+    text-align: center;
+}
+.co-left{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+.imgonly{
+    margin-left: 20%;
+    height: 40%;
+    width: 60%;
+}
+.co-right{
+    height: 50%;
+    width: 50%;
+    float: right;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+
+
+
+
+.my-skills{
+    background-color: peachpuff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    clear: left;
+    
+
+
+}
+
+
+.my-skills h2{
+    position: relative;
+}
+.my-skills h2:after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: peru;
+}
+.my-skills:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.my-skills .skills-left,.my-skills .skills-center,.my-skills .skills-right{
+    width: 33.33333333333333%;
+    display: inline-block;
+    float: left;
+}
+
+
+.contact-section{
+    text-align: center;
+}
+
+
+.social-container{
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+.social-container i{
+    float: left;
+}
+
+.col-1 p,
+.col-2 p, 
+.col-3 p{
+    display: inline-block;
+}
+
+.col-1,
+.col-2, 
+.col-3{
+    width: 33.3333333%;
+    display: inline-block;
+    float: left;
+
+}
+ 
+.footer-text{
+    clear: left;
+
+}
